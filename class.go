@@ -1,5 +1,18 @@
 package rab
 
+import "github.com/360EntSecGroup-Skylar/excelize"
+
+func ReadExcel(path string, sheet string) ([][]string, error) {
+	f, err := excelize.OpenFile(path)
+	if err != nil {
+		return nil, err
+	}
+	rows := f.GetRows(sheet)
+	return rows, nil
+}
+
+type Classes []*Class
+
 // Class of the actor
 // It's static and can't be change in game
 //
