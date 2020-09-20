@@ -1,5 +1,3 @@
-module github.com/sleep2death/dex
+module github.com/sleep2death/rab
 
 go 1.15
-
-require github.com/golangci/golangci-lint v1.31.0 // indirect
