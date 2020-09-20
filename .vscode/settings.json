@@ -1,0 +1,44 @@
+{
+  "editor.fontFamily": "PragmataPro Liga, Consolas, 'Courier New', monospace",
+  "editor.formatOnSave": false,
+  "go.lintTool":"golangci-lint",
+  "go.lintFlags": [
+    "--fast"
+  ],
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "vim.leader": ",",
+  "vim.handleKeys": {
+  },
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.useCtrlKeys": true,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["z", "z"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "w"],
+      "commands": ["workbench.action.files.save"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "n"],
+      "commands": ["workbench.view.explorer"]
+    },
+    {
+      "before": ["<leader>", "<enter>"],
+      "commands": [":nohl"]
+    }
+  ]
+}
