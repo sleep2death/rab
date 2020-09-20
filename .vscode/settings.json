@@ -12,8 +12,8 @@
   "vim.leader": ",",
   "vim.handleKeys": {
   },
-  "vim.easymotion": true,
-  "vim.incsearch": true,
+  "vim.easymotion": false,
+  "vim.incsearch": false,
   "vim.useSystemClipboard": true,
   "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
