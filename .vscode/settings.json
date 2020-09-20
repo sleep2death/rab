@@ -33,10 +33,6 @@
       "commands": ["workbench.view.explorer"]
     },
     {
-      "before": ["<leader>", "n"],
-      "commands": ["workbench.view.explorer"]
-    },
-    {
       "before": ["<leader>", "<enter>"],
       "commands": [":nohl"]
     }
